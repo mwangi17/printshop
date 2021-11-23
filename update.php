@@ -117,15 +117,15 @@ $mail->SMTPDebug =0;
 $mail->SMTPAuth =TRUE;
 $mail->Port =587;
 //the server of the email provider it is different for yahoo and gmail
-$mail-> Host ="smtp.gmail.com";
-$mail->Username ="mkdennnis@gmail.com";
-$mail->Password ="u)p6FY%3!RKpI)";
+$mail-> Host ="";
+$mail->Username ="";
+$mail->Password ="";
 //use the transport layer security
 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 //set the email format to IsHTML(true) to true
 $mail-> IsHTML(true);
-$mail-> addAddress("$cust_mail","Kayd");
-$mail-> setFrom("mkdennnis@gmail.com","Dennis");
+$mail-> addAddress("$cust_mail","");
+$mail-> setFrom("","");
 $mail-> Subject = "Online Web2Print";
 $mail-> Body = "<b style=font-size:50px;>Hello $na your order $id is $up_st</b> ";
 $mail-> addAttachment('C:\xampp\htdocs\new\images\46.pdf');

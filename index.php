@@ -28,7 +28,7 @@ include 'functions.php';
   <h1>Online Web2Print</h1>
 </head>
 <div class="h-mail">
-  <span>Email us:   mkdennnis@gmail.com</span>
+  <span>Email us:   mkd@gmail.com</span>
 </div>
 <div>
   <!-- if a user is logged in  session is created and the $_SESSION['user'] is set

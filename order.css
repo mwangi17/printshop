@@ -1,0 +1,104 @@
+.main-ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 20px 30px;
+
+}
+.main-ul li a{
+  text-decoration: none;
+  font-weight: bolder;
+  color: white;
+  font-size: 20px;
+}
+.nav-bar{
+  background-color: purple;
+}
+.footer{
+  text-align: center;
+  background-color: purple;
+  margin: 0px;
+  color: white;
+  height: 20px;
+  padding: 10px;
+  margin-top: 0px;
+}
+html,body{
+  margin: 0;
+  padding: 0;
+
+}
+.lg{
+  color: white;
+}
+.pricecal{
+  padding: 40px;
+  margin-top: -350px;
+  margin-left: 650px;
+  width: 450px;
+  background-color: aliceblue;
+  height: 500px;
+}
+.pricecal input{
+  width:70%;
+  height: 40px;
+  border: 3px solid plum;
+
+}
+.dpcontent{
+  display: none;
+}
+.show{
+  display: block;
+}
+.pay button{
+  background-color: purple;
+  color:white;
+  width: 50%;
+  height:30px;
+  font-size: 17px;
+  border-radius: 20px;
+}
+
+.pay button:hover{
+  background-color: plum;
+}
+.upload{
+margin-top: 150px;
+margin-left: 30px;
+
+}
+.upload button{
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+.upload button:hover{
+  background-color: plum;
+}
+.up{
+  width: 500px;
+  border: 5px solid plum;
+}
+.cal-up{
+  border-top: 1px solid gray;
+}
+.err{
+padding: 10px;
+color: red;
+background: white;
+}
+.instruction{
+  padding: ;
+  font-style: italic;
+  font-family: sans-serif;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}

@@ -1,0 +1,81 @@
+.main-ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 20px 30px;
+
+}
+.main-ul li a{
+  text-decoration: none;
+  font-weight: bolder;
+  color: white;
+  font-size: 20px;
+}
+.nav-bar{
+  background-color: purple;
+}
+.footer{
+  text-align: center;
+  background-color: purple;
+  margin: 0px;
+  color: white;
+  height: 20px;
+  padding: 10px;
+  margin-top: 90px;
+}
+html,body{
+  margin: 0;
+  padding: 0;
+
+}
+.lg{
+  color: white;
+}
+
+
+.dpcontent{
+  display: none;
+}
+.show{
+  display: block;
+}
+.pay button{
+  background-color: purple;
+  color:white;
+  width: 50%;
+  height:30px;
+  font-size: 17px;
+  border-radius: 20px;
+  margin-left: 250px;
+  margin-top: 100px;
+}
+.pay button:hover{
+  background-color: plum;
+}
+.upload{
+margin-top: 80px;
+margin-left: 30px;
+
+}
+.upload button{
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+.upload button:hover{
+  background-color: plum;
+}
+.up{
+  width: 500px;
+  border: 5px solid plum;
+}
+.cal-up{
+  border-top: 1px solid gray;
+}
+.err{
+padding: 10px;
+color: red;
+background: white;
+}

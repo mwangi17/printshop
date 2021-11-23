@@ -1,0 +1,162 @@
+th,td
+{
+  padding: 20px 30px;
+  font-size: 20px;
+  text-align: left;
+  border: 0.5px solid plum;
+}
+tr:nth-child(even){
+  background-color: aliceblue;
+
+
+}
+table{
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  margin-top:30px;
+}
+
+body{
+
+}
+.main-ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 20px 30px;
+
+}
+.main-ul li a{
+  text-decoration: none;
+  font-weight: bolder;
+  color: white;
+  font-size: 20px;
+
+}
+.nav-bar{
+  background-color: purple;
+}
+.footer{
+  text-align: center;
+  background-color: purple;
+  margin: 0px;
+  color: white;
+  height: 20px;
+  padding: 10px;
+  margin-top: 320px;
+}
+h1{
+  color: purple;
+  padding-left: 40px;
+}
+html,body{
+  margin: 0;
+  padding: 0;
+
+}
+h3{
+  position: absolute;
+  font-size: 40px;
+  color: purple;
+  background-color: white;
+}
+
+.con-ul li{
+  list-style: none;
+  display: inline-block;
+}
+.button1{
+  width: 80px;
+  font-weight: bold;
+  background-image: url("images/blue.jpg");
+}
+.inpt{
+  width: 60px;
+  font-weight: bold;
+}
+.search{
+  margin-left: 20px;
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.search input{
+  font-weight: bolder;
+  font-size: 15px;
+}
+.srch{
+  height: 50px;
+}
+.btn1{
+  height: 50px;
+  width: 100px;
+  font-size: 15px;
+  font-weight: bolder;
+  color: purple;
+}
+.dtn{
+  margin-left: 600px;
+  margin-top: -50px;
+  font-size: 20px;
+}
+.tm{
+  text-align: center;
+}
+
+.tablehe{
+  background-color: plum;
+}
+.sts{
+  background-image: url("images/blue.jpg");
+  color: black;
+  font-size: 15px;
+}
+.up{
+  font-weight: bolder;
+}
+.bck{
+  margin-left: 500px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.sidebar {
+  height: 22%;
+  width: 0;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: plum;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  margin-top: 160px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+.openbtn{
+  background-color: aliceblue;
+}
+.dt{
+  padding-left: 1000px;
+  margin-bottom: 140px;
+}

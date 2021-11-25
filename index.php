@@ -1,4 +1,6 @@
-<?php
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd" >
+<html><?php
 include 'functions.php';
 
     if(isset($_SESSION['success']))
@@ -15,8 +17,7 @@ include 'functions.php';
 // 	header('location: login.php');
 // }
 ?>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd" >
-<html>
+
 <head>
   <title>
     Online Web2Print
